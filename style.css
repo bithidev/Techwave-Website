@@ -242,6 +242,142 @@ hr{
 #card-6{
   grid-row: span 1;
 }
+  /* Featured-Episodes-Section-start  */
+#Episodes-Section{
+  padding: 120px 200px;
+}
+.Episodes-Section{
+align-items: center;
+}
+.Episodes-continer h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 40px;
+} 
+.episode-Host{
+  display: flex;
+  gap: 30px;
+}
+.Episodes-continer{
+  text-align: center;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
+.play-icon{
+background: linear-gradient(
+    90deg,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 140px;
+  }
+.play-icon{
+color: #ffffff;
+padding-top: 20px;
+padding-left: 20px;
+  }
+.episode-cards{
+  background-color: #250D44;
+  width: 380px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.card-info{
+  padding: 24px;
+  text-align: start;
+}
+.card-info h3{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.card-info p{
+  color: #ffffff;
+  opacity: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  line-height: 24px;
+}
+.episode-cards h3{
+color: #ffffff;
+font-size: 24px;
+font-weight: bold;
+}
+.episode-cards p{
+font-size: 16px;
+font-weight: 400;
+color: #ffffff;
+opacity: 80%;
+}
+.episode-time{
+  display: flex;
+}
+.episode-time p{
+  padding-top: 10px;
+}
+.episode-time img{
+ padding: 10px;
+}
+ /* host-section-staet  */
+.host-info{
+  display: flex;
+  background-color: #250D44;
+  border-radius: 40px;
+  padding: 40px;
+  gap: 24px;
+  align-items: center;
+}
+.host-text h3{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.host-text {
+  text-align: start;
+}
+.host-text p{
+  color: #ffffff;
+  opacity: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 16px 0;
+}
+.host-icon{
+   display: flex;
+   gap: 10px;
+}
+.host-icon-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: #533C72 solid 1px;
+    transition: all 0.3s ease;
+}
+.host-icon-1:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: #533C72 solid 1px;
+    transform: translateY(-3px);
+}
+.host-icon-1 img{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.host-section h2{
+  padding-top: 120px;
+}
 /* -------------footer-section-start ---------*/
 #footer-section{
   margin: 0 auto;
