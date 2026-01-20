@@ -47,6 +47,10 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+ #bg-color{
+  background-color: #1A0B2E;
+  padding: 16px 200px;
+}
 .navbar-menu ul{
   display: flex;
   text-decoration: none;
@@ -245,6 +249,8 @@ hr{
   /* Featured-Episodes-Section-start  */
 #Episodes-Section{
   padding: 120px 200px;
+  background-color: #1A0B2E;
+  width: 100%;
 }
 .Episodes-Section{
 align-items: center;
@@ -256,6 +262,9 @@ align-items: center;
   text-align: center;
   padding-bottom: 40px;
 } 
+#episode-cards-img{
+ width: 100%;
+}
 .episode-Host{
   display: flex;
   gap: 30px;
@@ -450,6 +459,18 @@ padding: 80px 0;
   font-weight: 700;
   gap: 10px;
 }
+#nav-but{
+  display: none;
+}
+#bg-color {
+    padding: 16px 20px;
+}
+.navbar-menu ul{
+  font-size: 12px;
+}
+.header-logo img{
+width: 150px;
+}
 .bann-btn2{
   padding: 0.75rem 1rem;
   border-radius: 1.875rem;
@@ -462,7 +483,6 @@ padding: 80px 0;
   flex-wrap: wrap;
   gap: 20px;
 }
-
 #about-section{
   margin: 0 auto;
   align-items: center;
@@ -498,8 +518,6 @@ hr{
   font-weight: 900;
 }
 .about-count {
-  color: #ffffff;
-  opacity: 80%;
   font-size: 14px;
   font-weight: 400;
   display: flex;
@@ -528,7 +546,108 @@ hr{
   font-size: 14px;
   font-weight: 400;
 }
+#Episodes-Section{
+  padding: 40px 20px;
+}
+.Episodes-Section{
+align-items: center;
+}
+.Episodes-continer h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+} 
+.episode-Host{
+  flex-direction: column;
+  gap: 20px;
+}
+.Episodes-continer{
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.episode-cards{
+  
+  width: 380px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.episode-cards-img{
+ width: 100%;
+}
+.card-info{
+  padding: 24px;
+  text-align: start;
+}
+.card-info h3{
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+.card-info p{
+  opacity: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  line-height: 24px;
+}
+.episode-cards h3{
+font-size: 24px;
+font-weight: bold;
+}
+.episode-cards p{
+font-size: 16px;
+font-weight: 400;
+}
+.episode-time{
+  display: flex;
+}
+.episode-time p{
+  padding-top: 10px;
+}
+.episode-time img{
+ padding: 10px;
+}
 
+.host-info{
+ flex-direction: column;
+  border-radius: 40px;
+  padding: 40px;
+  gap: 24px;
+}
+.host-text h3{
+  font-size: 32px;
+  font-weight: bold;
+}
+.host-text {
+  text-align: start;
+}
+.host-text p{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 0;
+}
+.host-icon{
+   display: flex;
+   gap: 10px;
+}
+.host-icon-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.host-icon-1:hover{
+    width: 40px;
+    height: 40px;
+}
+.host-icon-1 img{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.host-section h2{
+  padding-top: 60px;
+  font-size: 32px;
+}
 #footer-section .footer-container{
   margin: 0 auto;
  max-width: 576px;
@@ -561,6 +680,21 @@ hr{
 #card-section{
   padding: 40px 20px;
 }
+.episode-Host{
+  
+}
+#Episodes-Section{
+  padding: 40px 20px;
+}
+.play-icon{
+    width: 60px;
+    height: 60px;
+    margin-top: -140px;
+    margin-left: 120px;
+  }
+}
+#bg-color {
+    padding: 16px 50px;
 }
 @media (max-width: 600px) {
   .card-continer {
@@ -568,141 +702,3 @@ hr{
   }
   
 }
-
-.card {
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 18px;
-  padding: 25px;
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card-large {
-  grid-row: span 2;
-}
-
-.highlight {
-  grid-column: span 2;
-  border: 2px solid transparent;
-  background:
-    linear-gradient(#2a0f4d, #2a0f4d) padding-box,
-    linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8) border-box;
-}
-
-.icon {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-
-.card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-size: 14px;
-  opacity: 0.85;
-  line-height: 1.6;
-}
-
-/* 📱 Responsive */
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .card-large,
-  .highlight {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-}
-
-
-
-body {
-  margin: 0;
-  background: #14082c;
-  font-family: "Inter", sans-serif;
-}
-
-.why-techwave {
-  padding: 80px 20px;
-  background: radial-gradient(circle at top, #3a136e, #16082f);
-  color: #fff;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.title {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 50px;
-  border: 2px dashed rgba(255, 255, 255, 0.3);
-  padding: 10px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 18px;
-  padding: 28px;
-  backdrop-filter: blur(10px);
-}
-
-.highlight {
-  grid-column: span 2;
-  border: 2px solid transparent;
-  background:
-    linear-gradient(#2a0f4d, #2a0f4d) padding-box,
-    linear-gradient(90deg, #f7e93f, #fb09b4, #9100f8) border-box;
-}
-
-.icon {
-  font-size: 32px;
-  margin-bottom: 14px;
-  display: inline-block;
-}
-
-.card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-size: 14px;
-  line-height: 1.6;
-  opacity: 0.85;
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .highlight {
-    grid-column: span 1;
-  }
-}
-
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
-
